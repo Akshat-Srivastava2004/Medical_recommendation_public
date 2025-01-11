@@ -1,7 +1,7 @@
 {
     "name": "my-python-project",
     "scripts": {
-      "start": "py mainfile.py"
+      "start": "py mainefile.py"
     }
   }
   
