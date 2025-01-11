@@ -4,7 +4,7 @@ print(welcome)
 
 # %%
 import pandas as pd 
-df = pd.read_csv('E:/Medical_Recommendation_System/Training.csv')
+df = pd.read_csv('Training.csv')
 
 # %%
 df.head()
@@ -98,11 +98,11 @@ print("Actual label:",Y_test[10])
 
 
 # %%
-precaution=pd.read_csv('E:/Medical_Recommendation_System/precautions_df.csv')
-workout=pd.read_csv('E:/Medical_Recommendation_System/workout_df.csv')
-description=pd.read_csv('E:/Medical_Recommendation_System/description.csv')
-medication=pd.read_csv('E:/Medical_Recommendation_System/medications.csv')
-diets=pd.read_csv('E:/Medical_Recommendation_System/diets.csv')
+precaution=pd.read_csv('precautions_df.csv')
+workout=pd.read_csv('workout_df.csv')
+description=pd.read_csv('description.csv')
+medication=pd.read_csv('medications.csv')
+diets=pd.read_csv('diets.csv')
 
 # %%
 #helper function
