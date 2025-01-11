@@ -205,8 +205,10 @@ from flask import Flask, request, jsonify
 import numpy as np
 import pandas as pd  # Assuming pandas is also being used
 import json
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
 
 @app.route('/')
 def home():
