@@ -1,1 +1,1 @@
-web: py mainefile.py
+web: python mainefile.py
